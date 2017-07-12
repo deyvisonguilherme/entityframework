@@ -46,6 +46,8 @@ namespace WinForms
         private void button2_Click(object sender, EventArgs e)
         {
             Loja loja = context.Lojas.Find(1);
+            Loja _loja = context.Lojas
+                .Where(i => i.Id == 1);
         }
     }
 }
