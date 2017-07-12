@@ -21,6 +21,7 @@ namespace WinForms
             InitializeComponent();
 
             context = new ProductDbContext();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
